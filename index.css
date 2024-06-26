@@ -1,25 +1,4 @@
-/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
-html {
-    -ms-text-size-adjust: 90%;
-    -webkit-text-size-adjust: 90%
-}
 
-body {
-    margin: 0
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section {
     display: block
 }
 
@@ -48,21 +27,23 @@ template {
     display: none
 }
 
-a {
-    background-color: transparent
-}
-
-a:active,
-a:hover {
-    outline-width: 0
-}
-
-abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
-}
-
+a {/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+    /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+    html {
+        -ms-text-size-adjust: 90%;
+        -webkit-text-size-adjust: 90%
+    }
+    
+    body {
+        margin: 0
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
 b,
 strong {
     font-weight: bolder
@@ -81,6 +62,25 @@ small {
     font-size: 80%
 }
 
+header,
+main,
+menu,
+nav,
+section {
+background-color: transparent
+}
+
+a:active,
+a:hover {
+outline-width: 0
+}
+
+abbr[title] {
+border-bottom: none;
+text-decoration: underline;
+text-decoration: underline dotted
+}
+
 sub,
 sup {
     font-size: 75%;
@@ -95,25 +95,6 @@ sub {
 
 sup {
     top: -0.5em
-}
-
-figure {
-    margin: 1em 40px
-}
-
-img {
-    border-style: none
-}
-
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
-hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible
@@ -157,6 +138,25 @@ h2 {
 input {
     overflow: visible
 }
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
 
 button,
 select {
