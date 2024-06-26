@@ -142,13 +142,6 @@ fieldset {
     padding: .35em .625em .75em
 }
 
-legend {
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal
-}
 
 textarea {
     overflow: auto
