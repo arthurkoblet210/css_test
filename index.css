@@ -136,12 +136,6 @@ samp {
     font-size: 1em
 }
 
-hr {
-
-button,
-select {
-    text-transform: none
-}
 
 button,
 [type=button],
