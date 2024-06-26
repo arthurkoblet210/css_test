@@ -88,12 +88,6 @@ sub {
     bottom: -0.25em
 }
 
-sup {
-    top: -0.5em
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible
-}
 
 button,
 input,
