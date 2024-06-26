@@ -89,15 +89,6 @@ sub {
 }
 
 
-button,
-input,
-select,
-textarea,
-optgroup {
-    font: inherit;
-    margin: 0
-}
-
 optgroup {
     font-weight: bold
 }
